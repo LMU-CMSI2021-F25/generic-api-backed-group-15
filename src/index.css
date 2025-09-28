@@ -37,10 +37,12 @@ h1{
 
 @keyframes slide-fwd-center {
   0% {
-    transform: translateZ(0);
+    transform: scale(0.8);
+    opacity: 0;
   }
   100% {
-    transform: translateZ(160px);
+    transform: scale(1);
+    opacity: 1;
   }
 }
 
