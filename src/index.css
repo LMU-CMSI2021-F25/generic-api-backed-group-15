@@ -53,7 +53,7 @@ h1{
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 
-  animation: slide-fwd-center 1s ease-in-out forwards;
+  animation: slide-fwd-center 5s ease-in-out forwards;
 }
 
 footer {
