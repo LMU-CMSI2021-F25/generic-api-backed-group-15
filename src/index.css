@@ -68,8 +68,7 @@ button:focus-visible {
 }
 
 .search-bar {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
 }
