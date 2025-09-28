@@ -1,5 +1,5 @@
 body {
-  background-color: #8B5A83;
+  background-color: #6f666d;
 }
 
 @keyframes text-pop-up-top {
@@ -47,7 +47,7 @@ h1{
 
 footer {
   text-align: center;
-  background-color: #6B4E71;
+  background-color: #766e77;
   padding: 10px;
   color: white;
   text-shadow: black 1px 2px;
