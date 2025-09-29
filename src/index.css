@@ -58,6 +58,23 @@ h1{
   animation: slide-fwd-center 1s ease-in-out forwards;
 }
 
+#image-container {
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(0%, -50%);
+  user-select: none;
+  gap: 1.5rem;
+}
+
+.image-container {
+  width: 10rem;
+  height: 14rem;
+  object-fit: cover;
+  object-position: 100% center;
+}
+
 footer {
   font-family: Arial, sans-serif;
   text-align: center;
