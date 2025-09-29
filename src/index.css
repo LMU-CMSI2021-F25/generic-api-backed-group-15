@@ -24,7 +24,7 @@ body {
   }
 }
 
-  h1,h2 {
+  h1{
     text-align: center;
     font-family: Arial, sans-serif;
     font-size: 50px;
@@ -44,6 +44,17 @@ body {
     transform: scale(1);
     opacity: 1;
   }
+}
+
+h2 {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-top: 100px;
+    animation: slide-fwd-center 1s ease-in-out forwards;
 }
 
 .middle-section {
