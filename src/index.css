@@ -63,10 +63,7 @@ button {
 
 #image-container {
   display: flex;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(0%, -50%);
+  justify-content: center;
   user-select: none;
   gap: 1.5rem;
   margin: 40px 0;
