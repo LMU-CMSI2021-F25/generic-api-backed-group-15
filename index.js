@@ -1,4 +1,4 @@
-    const container = document.getElementById("container");
+    const container = document.getElementById("image-container");
 
     const handleOnDown = (e) => (container.dataset.mouseDownAt = e.clientX);
 
