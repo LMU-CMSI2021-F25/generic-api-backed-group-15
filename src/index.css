@@ -51,8 +51,6 @@ h2 {
     font-family: Arial, sans-serif;
     font-size: 50px;
     color: white;
-    font-weight: bold;
-    text-decoration: underline;
     margin-top: 100px;
     animation: slide-fwd-center 1s ease-in-out forwards;
 }
@@ -93,6 +91,9 @@ button {
   transform: translate(0%, -50%);
   user-select: none;
   gap: 1.5rem;
+  margin: 40px 0;
+  overflow-x: auto;
+  padding: 20px 0;
 }
 
 .image {
@@ -105,7 +106,7 @@ button {
 * {
   margin: 0;
   padding: 0;
-   box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 footer {
