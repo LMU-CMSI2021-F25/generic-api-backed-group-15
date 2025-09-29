@@ -69,7 +69,6 @@ select, input, button {
 button {
  background-color: #afe2ba;
  color: white;
- cursor: pointer;
  border: none;
  font-weight: bold;
 }
