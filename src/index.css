@@ -2,25 +2,14 @@ body {
   background-color: #87b290;
 }
 
-@keyframes text-pop-up-top {
+@keyframes slide-fwd-center {
   0% {
-    transform: translateY(0);
-    transform-origin: 50% 50%;
-    text-shadow: none;
+    transform: scale(0.8);
+    opacity: 0;
   }
   100% {
-    transform: translateY(-50px);
-    transform-origin: 50% 50%;
-    text-shadow: 0 1px 0 #cccccc,
-                 0 2px 0 #cccccc,
-                 0 3px 0 #cccccc,
-                 0 4px 0 #cccccc,
-                 0 5px 0 #cccccc,
-                 0 6px 0 #cccccc,
-                 0 7px 0 #cccccc,
-                 0 8px 0 #cccccc,
-                 0 9px 0 #cccccc,
-                 0 50px 30px rgba(0, 0, 0, 0.3);
+    transform: scale(1);
+    opacity: 1;
   }
 }
 
@@ -32,18 +21,7 @@ body {
     font-weight: bold;
     text-decoration: underline;
     margin-top: 100px;
-    animation: text-pop-up-top 2s ease both;
-}
-
-@keyframes slide-fwd-center {
-  0% {
-    transform: scale(0.8);
-    opacity: 0;
-  }
-  100% {
-    transform: scale(1);
-    opacity: 1;
-  }
+    animation: slide-fwd-center 1s ease-in-out forwards;
 }
 
 h2 {
