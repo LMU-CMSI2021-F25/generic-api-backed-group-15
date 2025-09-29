@@ -14,18 +14,17 @@
     </div>
 
     <div class="middle-section"> </div>
+      <select id="petType">
+          <option value="">Select a pet type</option>
+          <option value="dog">Dog</option>
+          <option value="cat">Cat</option>
+          <option value="rabbit">Rabbit</option>
+          <option value="bird">Bird</option>
+      </select>
     
-    <select id="petType">
-        <option value="">Select a pet type</option>
-        <option value="dog">Dog</option>
-        <option value="cat">Cat</option>
-        <option value="rabbit">Rabbit</option>
-        <option value="bird">Bird</option>
-    </select>
+      <input type="number" id="pageNumber" value="1" min="1" placeholder="Page number">
     
-    <input type="number" id="pageNumber" value="1" min="1" placeholder="Page number">
-    
-    <button onclick="searchPets()">Search Pets</button>
+      <button onclick="searchPets()">Search Pets</button>
     
     <div id="results"></div>
 
