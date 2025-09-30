@@ -50,13 +50,13 @@ select, input, button {
   margin: 10px;
   font-size: 16px;
   border-radius: 5px;
-  border: 1px solid #131212;
+  border: 1px solid #666;
 }
 
 button {
  background-color: #afe2ba;
- color: white;
- border: 1px solid #f7f3f3;
+ color: rgb(221, 221, 221);
+ border: 1px solid #666;
  font-weight: bold;
 }
 
