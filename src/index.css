@@ -54,9 +54,9 @@ select, input, button {
 }
 
 button {
- background-color: #afe2ba;
+ background-color: #87b290;
  color: rgb(249, 248, 248);
- border: 1px solid #666;
+ border: 1px solid #faf7f7;
  font-weight: bold;
 }
 
