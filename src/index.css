@@ -13,24 +13,24 @@ body {
   }
 }
 
-  h1{
-    text-align: center;
-    font-family: Arial, sans-serif;
-    font-size: 50px;
-    color: white;
-    font-weight: bold;
-    text-decoration: underline;
-    margin-top: 100px;
-    animation: slide-fwd-center 1s ease-in-out forwards;
+h1 {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-size: 50px;
+  color: white;
+  font-weight: bold;
+  text-decoration: underline;
+  margin-top: 100px;
+  animation: slide-fwd-center 1s ease-in-out forwards;
 }
 
 h2 {
-    text-align: center;
-    font-family: Arial, sans-serif;
-    font-size: 50px;
-    color: white;
-    margin-top: 100px;
-    animation: slide-fwd-center 1s ease-in-out forwards;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-size: 50px;
+  color: white;
+  margin-top: 100px;
+  animation: slide-fwd-center 1s ease-in-out forwards;
 }
 
 .middle-section {
@@ -41,7 +41,6 @@ h2 {
   margin: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-
   animation: slide-fwd-center 1s ease-in-out forwards;
 }
 
@@ -54,12 +53,11 @@ select, input, button {
 }
 
 button {
- background-color: #87b290;
- color: rgb(249, 248, 248);
- border: 1px solid #faf7f7;
- font-weight: bold;
+  background-color: #87b290;
+  color: rgb(249, 248, 248);
+  border: 1px solid #faf7f7;
+  font-weight: bold;
 }
-
 
 #image-container {
   display: flex;
