@@ -1,4 +1,4 @@
-import './app.css'
+import './assets/App.css'
 import { useState } from 'react'
 
 function App() {
