@@ -98,7 +98,7 @@ button:active {
     margin: 40px 0;
     overflow-x: auto;
     padding: 20px 0;
-    align-items: center;
+    place-items: center;
 }
 
 .image {
