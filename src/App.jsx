@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import './App.css';
 
 
 export default function App() {
@@ -18,8 +19,8 @@ useEffect(() => {
 
 return (
     <div>
-        <img src={info} alt="Random dog" />
-        <button onClick={fetchDog}>Get Dog</button>
+        <img className="dog-photo" src={info} alt="Random dog" />
+        <button className="get-dog-button" onClick={fetchDog}>Get Dog</button>
     </div>
     )
 }
