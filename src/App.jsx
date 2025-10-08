@@ -24,3 +24,31 @@ return (
     </div>
     )
 }
+
+return (
+  <>
+    <h1>🐕 Bark & Meow Match 🐱</h1>
+
+    <div className="middle-section">
+      {info && (
+        <img
+          className="dog-photo"
+          src={info}
+          alt="Random dog"
+          style={{ opacity: loading ? 0.5 : 1 }}
+        />
+      )}
+      <button
+        className="get-dog-button"
+        onClick={fetchDog}
+        disabled={loading}
+      >
+        {loading ? "Loading..." : "Get New Dog 🐾"}
+      </button>
+    </div>
+
+    <footer>
+      <p>Discover your perfect furry friend! 🐕 Click to see more adorable dogs</p>
+    </footer>
+  </>
+);
