@@ -24,7 +24,6 @@ return (
         <button className="get-dog-button" onClick={fetchDog}>Get Dog</button>
     </div>
     )
-}
 
 return (
   <>
@@ -53,3 +52,4 @@ return (
     </footer>
   </>
 );
+}
