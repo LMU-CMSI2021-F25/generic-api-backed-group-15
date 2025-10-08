@@ -31,8 +31,8 @@ h2 {
     font-size: 25px;
     color: white;
     text-decoration: underline;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     animation: slide-fwd-center 1s ease-in-out forwards;
     background-color: #afe2ba;
     color: white;
