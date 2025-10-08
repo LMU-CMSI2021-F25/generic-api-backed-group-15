@@ -34,6 +34,9 @@ h2 {
     margin-top: 20px;
     margin-bottom: 20px;
     animation: slide-fwd-center 1s ease-in-out forwards;
+    background-color: #afe2ba;
+    color: white;
+    text-shadow: #87b290 1px 2px;
 }
 
 .middle-section {
