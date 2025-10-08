@@ -4,6 +4,7 @@ import './App.css';
 
 export default function App() {
 const [info, setInfo] = useState("");
+const [loading, setLoading] = useState(false);
 
 const fetchDog = () => {
 fetch("https://dog.ceo/api/breeds/image/random")
