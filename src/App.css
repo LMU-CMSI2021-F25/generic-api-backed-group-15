@@ -29,6 +29,7 @@ h2 {
     color: white;
     text-decoration: underline;
     margin-top: 20px;
+    margin-bottom: 20px;
     animation: slide-fwd-center 1s ease-in-out forwards;
 }
 
@@ -36,7 +37,7 @@ h2 {
     display: grid;
     place-items: center;
     padding: 20px;
-    background: linear-gradient(145deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.85));
+    background: rgba(255, 255, 255, 0.85);
     margin: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -45,6 +46,11 @@ h2 {
 .dog-photo {
     width: 400px;
     height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .facts {
@@ -98,7 +104,7 @@ button:hover::before {
 button:active {
     transform: translateY(0);
     box-shadow: 0 2px 8px rgba(135, 178, 144, 0.3);
-}   
+}  
 
 .image-container {
     display: flex;
