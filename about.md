@@ -4,3 +4,6 @@ App description in _about.md_ | 5 points total |
 | • App and API description | 2 points |
 | • Link to API documentation | 2 point |
 | • Link to app deployment | 1 point |
+
+App Description 
+- web application displays random dog photos and facts about dogs. 
