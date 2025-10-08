@@ -35,7 +35,7 @@ useEffect(() => {
 
 return (
   <>
-    <h1>🐕 DOG FACTS & FINDER 🐕 </h1>
+    <h1>🐕 NEW DOG & FACTS FINDER 🐕 </h1>
 
     <div className="middle-section">
         <img className="dog-photo" src={info} alt="Random dog" />
@@ -44,7 +44,7 @@ return (
         className="get-dog-button"
         onClick={fetchAPIS}
         disabled={loading}>
-        {loading ? "Loading..." : "CLICK HERE: Get New Dog & Dog Fact! 🐾"}
+        {loading ? "Loading..." : "CLICK HERE: Get New Dog & Fact! 🐾"}
         </button>
 
     </div>
