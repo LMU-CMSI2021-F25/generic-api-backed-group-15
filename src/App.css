@@ -1,18 +1,18 @@
 @keyframes slide-fwd-center {
-0% {
-transform: scale(0.8);
-opacity: 0;
-}
-100% {
-transform: scale(1);
-opacity: 1;
+    0% {
+    transform: scale(0.8);
+    opacity: 0;
+    }
+    100% {
+    transform: scale(1);
+    opacity: 1;
 }
 }
 
 @keyframes float {
-          0%, 100% { transform: translateY(0px); }
-          50% { transform: translateY(-10px); }
-        }
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); }
+}
 
 body {
     background: linear-gradient(135deg, #87b290 0%, #2f4b35 100%);
