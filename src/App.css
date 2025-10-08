@@ -61,7 +61,7 @@ button {
     position: relative;
     overflow: hidden;
     transition: all 0.3s ease;
-    cursor: zoom-in;
+    cursor: pointer;
 }
 
 button::before {
