@@ -48,8 +48,8 @@ return (
         </button>
     </div>
 
-    <h2>Example Pictures</h2>
-    
+    <h2>Example Pictures:</h2>
+
     <div className="image-container">
         <img className="image" src="/group 15 pic 1.jpg"/>
         <img className="image" src="/group 15 pic 2.jpg" />
