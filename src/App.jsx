@@ -46,8 +46,17 @@ return (
         disabled={loading}>
         {loading ? "Loading..." : "CLICK HERE: Get New Dog & Fact! 🐾"}
         </button>
-
     </div>
+
+    <div className="image-container">
+        <img className="image" src="/group 15 pic 1.jpg"/>
+        <img className="image" src="/group 15 pic 2.jpg" />
+        <img className="image" src="/group 15 pic 3.jpg"/>
+        <img className="image" src="/group 15 pic 4.jpg" />
+        <img className="image" src="/group 15 pic 5.jpg"/>
+        
+    </div>
+
     <footer>
       <p>Made by Group 15</p>
     </footer>
