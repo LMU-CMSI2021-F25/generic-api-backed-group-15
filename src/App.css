@@ -35,6 +35,7 @@ h2 {
     font-size: 25px;
     color: white;
     margin-top: 50px;
+    animation: slide-fwd-center 1s ease-in-out forwards;
 }
 
 .middle-section {
