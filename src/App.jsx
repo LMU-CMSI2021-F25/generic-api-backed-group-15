@@ -44,7 +44,7 @@ return (
         className="get-dog-button"
         onClick={fetchAPIS}
         disabled={loading}>
-        {loading ? "Loading..." : "Get New Dog 🐾"}
+        {loading ? "Loading..." : "CLICK HERE: Get New Dog & Dog Fact! 🐾"}
         </button>
 
     </div>
