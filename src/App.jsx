@@ -48,6 +48,9 @@ return (
         </button>
 
     </div>
+    <footer>
+      <p>Made by Group 15</p>
+    </footer>
     </>
     )
 }
