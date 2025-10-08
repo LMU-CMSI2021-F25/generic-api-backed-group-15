@@ -32,10 +32,25 @@ useEffect(() => {
 }, []);
 
 return (
-    <div>
-        <img className="dog-photo" src={info} alt="Random dog" />
-        <p>{facts}</p>
-        <button className="get-dog-button" onClick={fetchAPIS}>Get Dog</button>
+  <>
+    <h1>🐕 DOG FINDER 🐕 </h1>
+
+    <div className="middle-section">
+      {info && (
+        <img
+          className="dog-photo"
+          src={info}
+          alt="Random dog"
+          style={{ opacity: loading ? 0.5 : 1 }}
+        />
+      )}
+      <button
+        className="get-dog-button"
+        onClick={fetchDog}
+        disabled={loading}
+      >
+        {loading ? "Loading..." : "Get New Dog 🐾"}
+      </button>
     </div>
     )
 }
