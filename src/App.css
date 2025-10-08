@@ -34,6 +34,7 @@ h2 {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 25px;
     color: white;
+    font-weight: underline;
     margin-top: 50px;
     animation: slide-fwd-center 1s ease-in-out forwards;
 }
