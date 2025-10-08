@@ -80,13 +80,13 @@ button:hover {
 }
 
 button:hover::before {
-    background: ;
-    left: 100%;
+    transform: translateY(0);
+    box-shadow: 0 2px 8px rgba(135, 178, 144, 0.3);
 }
 
 button:active {
-    transform: scale(0.95);
-    box-shadow: 0 2px 8px rgba(135, 178, 144, 0.2);
+    transform: translateY(0);
+    box-shadow: 0 2px 8px rgba(135, 178, 144, 0.3);
 }   
 
 #image-container {
