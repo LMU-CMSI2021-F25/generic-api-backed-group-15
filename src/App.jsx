@@ -52,5 +52,6 @@ return (
         {loading ? "Loading..." : "Get New Dog 🐾"}
       </button>
     </div>
-    )
+    </>
+    );
 }
