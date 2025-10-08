@@ -34,7 +34,7 @@ h2 {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 25px;
     color: white;
-    font-weight: underline;
+    text-decoration: underline;
     margin-top: 50px;
     animation: slide-fwd-center 1s ease-in-out forwards;
 }
@@ -107,7 +107,7 @@ button:active {
     box-shadow: 0 2px 8px rgba(135, 178, 144, 0.3);
 }   
 
-#image-container {
+.image-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -120,16 +120,16 @@ button:active {
     scroll-behavior: smooth;
 }
 
-#image-container::-webkit-scrollbar {
+.image-container::-webkit-scrollbar {
     height: 8px;
 }
 
-#image-container::-webkit-scrollbar-track {
+.image-container::-webkit-scrollbar-track {
     background: rgba(255, 255, 255, 0.1);
     border-radius: 10px;
 }
 
-#image-container::-webkit-scrollbar-thumb {
+.image-container::-webkit-scrollbar-thumb {
     background: #87b290;
     border-radius: 10px;
 }
