@@ -41,7 +41,7 @@ return (
     </div>
 
     <footer>
-      <p>Discover your perfect furry friend! 🐕 Click to see more adorable dogs</p>
+      <p>MADE BY GROUP 15</p>
     </footer>
   </>
 );
