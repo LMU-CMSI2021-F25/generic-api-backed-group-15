@@ -7,7 +7,6 @@ box-sizing: border-box;
 body {
 background: linear-gradient(135deg, #87b290 0%, #2f4b35 100%);
 min-height: 100vh;
-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 @keyframes slide-fwd-center {
@@ -23,7 +22,7 @@ opacity: 1;
 
 h1 {
 text-align: center;
-font-family: Georgia, 'Times New Roman', Times, serif;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 font-size: 60px;
 color: white;
 font-weight: bold;
@@ -45,7 +44,7 @@ animation: slide-fwd-center 1s ease-in-out forwards;
 display: grid;
 place-items: center;
 padding: 20px;
-background-color: rgba(255, 255, 255, 0.8);
+background: linear-gradient(145deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.85));
 margin: 20px;
 border-radius: 10px;
 box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
