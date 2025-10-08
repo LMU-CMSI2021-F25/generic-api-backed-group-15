@@ -155,8 +155,9 @@ button:active {
 }
 
 footer {
-    font-family: Arial, sans-serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
+    font-weight: bold;
     background-color: #afe2ba;
     padding: 10px;
     color: white;
