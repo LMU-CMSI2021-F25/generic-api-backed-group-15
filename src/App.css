@@ -141,7 +141,7 @@ button:active {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     flex-shrink: 0;
     transition: transform 0.3s ease;
-    cursor: pointer;}
+}
 
 .image:hover {
     transform: scale(1.05);
