@@ -9,7 +9,7 @@
 }
 
 body {
-    background: gradient(135deg, #87b290 0%, #2f4b35 100%);
+    background: linear-gradient(135deg, #87b290 0%, #2f4b35 100%);
     min-height: 100vh;
 }
 
