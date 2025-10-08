@@ -35,7 +35,7 @@ useEffect(() => {
 
 return (
   <>
-    <h1>🐕 DOG FINDER 🐕 </h1>
+    <h1>🐕 DOG FACTS & FINDER 🐕 </h1>
 
     <div className="middle-section">
         <img className="dog-photo" src={info} alt="Random dog" />
