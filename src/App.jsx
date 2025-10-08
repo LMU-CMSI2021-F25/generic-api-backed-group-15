@@ -20,7 +20,7 @@ useEffect(() => {
 
 return (
   <>
-    <h1>🐕 Bark & Meow Match 🐱</h1>
+    <h1>🐕 Bark Find 🐕 </h1>
 
     <div className="middle-section">
       {info && (
