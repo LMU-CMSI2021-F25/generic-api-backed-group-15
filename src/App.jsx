@@ -19,13 +19,6 @@ useEffect(() => {
 }, []);
 
 return (
-    <div>
-        <img className="dog-photo" src={info} alt="Random dog" />
-        <button className="get-dog-button" onClick={fetchDog}>Get Dog</button>
-    </div>
-    )
-
-return (
   <>
     <h1>🐕 Bark & Meow Match 🐱</h1>
 
