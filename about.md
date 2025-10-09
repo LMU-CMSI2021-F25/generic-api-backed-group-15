@@ -5,5 +5,13 @@ App description in _about.md_ | 5 points total |
 | • Link to API documentation | 2 point |
 | • Link to app deployment | 1 point |
 
-App Description 
-- web application displays random dog photos and facts about dogs. 
+App and API Description 
+- Web application displays random dog photos and facts about dogs.
+- The dog.ceo API fetches the images. The Dog API fetches the facts.
+
+Link to API documentaions
+- https://dog.ceo/dog-api/documentation/
+- https://dogapi.dog/docs
+
+Link to app deployment
+- https://lmu-cmsi2021-f25.github.io/generic-api-backed-group-15/
