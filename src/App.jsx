@@ -34,7 +34,7 @@ useEffect(() => {
 }, []);
 
 return (
-  <>
+    <>
     <h1>🐕 NEW DOG & FACTS FINDER 🐕 </h1>
 
     <div className="middle-section">
@@ -60,7 +60,7 @@ return (
     </div>
 
     <footer>
-      <p>Made by Group 15</p>
+        <p>Made by Group 15</p>
     </footer>
     </>
     )
