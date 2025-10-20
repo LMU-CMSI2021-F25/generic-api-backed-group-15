@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund+Guides&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+@keyframes slide-fwd-center {
+    0% { transform: scale(0.8) translateY(-20px); opacity: 0; }
+    100% { transform: scale(1) translateY(0); opacity: 1; }
+}
+
+@keyframes float {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); }
+}
+
+body {
+    background: linear-gradient(135deg, #87b290 0%, #2f4b35 100%);
+    min-height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Plus Jakarta Sans', cursive;
+    font-size: 50px;
+    color: white;
+    margin-top: 50px;
+    animation: slide-fwd-center 1s ease-in-out forwards;
+    background-color: #afe2ba;
+    color: white;
+    text-shadow: #87b290 1px 2px;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Plus Jakarta Sans', cursive;
+    font-size: 25px;
+    color: white;
+    text-decoration: underline;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    animation: slide-fwd-center 1s ease-in-out forwards;
+    background-color: #afe2ba;
+    color: white;
+    text-shadow: #87b290 1px 2px;
+    padding: 20px;
+}
+
+.middle-section {
+    display: grid;
+    place-items: center;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.85);
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.dog-photo {
+    width: 400px;
+    height: 400px;
+    object-fit: fill;
+    max-width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.facts {
+    margin-top: 10px;
+    font-family: 'Plus Jakarta Sans', cursive;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    color: #87b290;
+    text-shadow: white 1px 1px;
+    text-align: center;
+}
+
+button {
+    padding: 15px 40px;
+    margin: 10px;
+    font-size: 18px;
+    border-radius: 8px;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    background: #6b9474;
+    color: rgb(249, 248, 248);
+    font-weight: bold;
+    box-shadow: 0 4px 12px rgba(135, 178, 144, 0.3);
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    transition: left 0.5s;
+}
+
+button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(135, 178, 144, 0.4);
+    border-color: rgba(255, 255, 255, 0.6);
+}
+
+button:hover::before {
+    transform: translateY(0);
+    box-shadow: 0 2px 8px rgba(135, 178, 144, 0.3);
+}
+
+button:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 8px rgba(135, 178, 144, 0.3);
+}  
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    gap: 1.5rem;
+    margin: 30px auto;
+    overflow-x: auto;
+    padding: 20px;
+    max-width: 100%;
+    scroll-behavior: smooth;
+}
+
+.image-container::-webkit-scrollbar {
+    height: 8px;
+}
+
+.image-container::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+}
+
+.image-container::-webkit-scrollbar-thumb {
+    background: #87b290;
+    border-radius: 10px;
+}
+
+.image {
+    width: 10rem;
+    height: 14rem;
+    object-fit: cover;
+    object-position: center center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    flex-shrink: 0;
+    transition: transform 0.3s ease;
+}
+
+.image:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
+}
+
+footer {
+    font-family: 'Plus Jakarta Sans', cursive;
+    text-align: center;
+    font-weight: bold;
+    background-color: #afe2ba;
+    padding: 10px;
+    color: white;
+    text-shadow: #87b290 1px 2px;
+}
